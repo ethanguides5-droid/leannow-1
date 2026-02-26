@@ -29,13 +29,16 @@ function App() {
         </div>
 
         <div className="flex justify-center mb-12">
-          <button
+          <a
+            href="https://www.checkout-ds24.com/product/647343"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold text-lg px-12 py-4 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 hover:scale-105 uppercase"
             style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.1em' }}
           >
             <ShoppingCart className="w-6 h-6" />
             {t.buyNowBottle}
-          </button>
+          </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
