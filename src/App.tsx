@@ -405,7 +405,7 @@ function App() {
         <div className="mt-16 max-w-4xl mx-auto px-4">
           <div className="flex justify-center mb-8">
             <a
-              href="https://drive.google.com/file/d/164XN8WUCW9CUmGGbdCkZ7lpZOJrrRFAJ/view?usp=sharing"
+              href="/label.png"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3 bg-[#4A4A4A] text-white font-bold rounded-full hover:bg-[#FF8C00] hover:text-[#4A4A4A] transition-all duration-300 shadow-lg transform hover:scale-105 uppercase"
