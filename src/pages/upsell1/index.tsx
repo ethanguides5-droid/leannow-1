@@ -88,6 +88,7 @@ function Upsell1() {
               </div>
 
               <button
+                onClick={() => window.location.href = 'https://www.checkout-ds24.com/product/647343'}
                 className="w-full bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold text-xl px-8 py-5 rounded-xl shadow-lg transition-all duration-300 flex items-center justify-center gap-3 hover:scale-105 uppercase mb-4"
                 style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.1em', boxShadow: '0 8px 24px rgba(74,74,74,0.3)' }}
               >
