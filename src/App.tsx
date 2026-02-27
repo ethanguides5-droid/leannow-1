@@ -186,15 +186,7 @@ function App() {
                 {t.guaranteeText}
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-[#FFFFFF] rounded-lg p-4 border-2 border-[#E6EDF4] hover:border-[#FF8C00] transition-colors duration-300 cursor-pointer flex flex-col h-full">
-                  <div className="flex items-center gap-2 mb-2">
-                    <CheckCircle className="w-5 h-5 text-[#4A4A4A]" strokeWidth={1.5} />
-                    <p className="font-bold text-[#4A4A4A] text-sm uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>{t.freeSample}</p>
-                  </div>
-                  <p className="text-[#7C8CA1] text-sm" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>{t.tryItNow}</p>
-                </div>
-
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-[#FFFFFF] rounded-lg p-4 border-2 border-[#E6EDF4] hover:border-[#FF8C00] transition-colors duration-300 flex flex-col h-full">
                   <div className="flex items-center gap-2 mb-2">
                     <CheckCircle className="w-5 h-5 text-[#4A4A4A]" strokeWidth={1.5} />
