@@ -112,7 +112,7 @@ export const translations: Record<'en' | 'de', Translations> = {
     footerText: 'Advanced thermogenic fat burner for optimal metabolism and weight management',
     contactUs: 'Contact Us',
     privacyPolicy: 'Privacy Policy',
-    returnAddress: 'Return Address: 6 Danbury Ct, Linford Wood, Milton Keynes MK14 6PL, United Kingdom',
+    returnAddress: 'Return Address: 2701 Couchville Pike #100, Nashville, TN 37217, United States of America',
     unsubscribe: 'To unsubscribe from our mailing list, please contact us',
     disclaimer: 'These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.'
   },
@@ -170,7 +170,7 @@ export const translations: Record<'en' | 'de', Translations> = {
     footerText: 'Fortgeschrittener thermogener Fatburner für optimalen Stoffwechsel und Gewichtsmanagement',
     contactUs: 'Kontaktieren Sie Uns',
     privacyPolicy: 'Datenschutzrichtlinie',
-    returnAddress: 'Rücksendeadresse: 6 Danbury Ct, Linford Wood, Milton Keynes MK14 6PL, Vereinigtes Königreich',
+    returnAddress: 'Rücksendeadresse: 2701 Couchville Pike #100, Nashville, TN 37217, Vereinigte Staaten von Amerika',
     unsubscribe: 'Um sich von unserer Mailingliste abzumelden, kontaktieren Sie uns bitte',
     disclaimer: 'Diese Aussagen wurden nicht von der Food and Drug Administration bewertet. Dieses Produkt ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern.'
   }
