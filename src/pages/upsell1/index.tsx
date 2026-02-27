@@ -93,6 +93,18 @@ function Upsell1() {
                 Add to Order
               </button>
 
+              <div className="bg-gradient-to-r from-[#F6A800]/10 to-[#FF8C00]/10 border-2 border-[#F6A800] rounded-xl p-6 mb-4">
+                <div className="flex items-center justify-center gap-3 mb-2">
+                  <ShoppingCart className="w-6 h-6 text-[#F6A800]" strokeWidth={2.5} />
+                  <h4 className="text-[#4A4A4A] font-bold text-lg uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>
+                    60-Day Money-Back Guarantee
+                  </h4>
+                </div>
+                <p className="text-[#4A4A4A] text-center text-sm" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
+                  Try the complete guide bundle risk-free. If you're not completely satisfied, get a full refund within 60 days. No questions asked.
+                </p>
+              </div>
+
               <button
                 onClick={() => window.location.href = '/thankyou'}
                 className="w-full bg-transparent hover:bg-[#F8FBFF] text-[#7C8CA1] hover:text-[#4A4A4A] font-semibold text-base px-8 py-3 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 border-2 border-[#E6EDF4]"
