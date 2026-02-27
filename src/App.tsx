@@ -417,6 +417,7 @@ function App() {
           privacyPolicy={t.privacyPolicy}
           returnAddress={t.returnAddress}
           unsubscribe={t.unsubscribe}
+          disclaimer={t.disclaimer}
         />
       </div>
     </div>

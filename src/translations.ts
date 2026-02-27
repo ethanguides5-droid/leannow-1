@@ -54,6 +54,7 @@ export interface Translations {
   privacyPolicy: string;
   returnAddress: string;
   unsubscribe: string;
+  disclaimer: string;
 }
 
 export const translations: Record<'en' | 'de', Translations> = {
@@ -112,7 +113,8 @@ export const translations: Record<'en' | 'de', Translations> = {
     contactUs: 'Contact Us',
     privacyPolicy: 'Privacy Policy',
     returnAddress: 'Return Address: 6 Danbury Ct, Linford Wood, Milton Keynes MK14 6PL, United Kingdom',
-    unsubscribe: 'To unsubscribe from our mailing list, please contact us'
+    unsubscribe: 'To unsubscribe from our mailing list, please contact us',
+    disclaimer: 'These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.'
   },
   de: {
     headline: 'SICHERN SIE JETZT IHR LEANNOW RABATT-PAKET',
@@ -169,6 +171,7 @@ export const translations: Record<'en' | 'de', Translations> = {
     contactUs: 'Kontaktieren Sie Uns',
     privacyPolicy: 'Datenschutzrichtlinie',
     returnAddress: 'Rücksendeadresse: 6 Danbury Ct, Linford Wood, Milton Keynes MK14 6PL, Vereinigtes Königreich',
-    unsubscribe: 'Um sich von unserer Mailingliste abzumelden, kontaktieren Sie uns bitte'
+    unsubscribe: 'Um sich von unserer Mailingliste abzumelden, kontaktieren Sie uns bitte',
+    disclaimer: 'Diese Aussagen wurden nicht von der Food and Drug Administration bewertet. Dieses Produkt ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern.'
   }
 };

@@ -4,9 +4,10 @@ interface FooterProps {
   privacyPolicy: string;
   returnAddress: string;
   unsubscribe: string;
+  disclaimer?: string;
 }
 
-function Footer({ footerText, contactUs, privacyPolicy, returnAddress, unsubscribe }: FooterProps) {
+function Footer({ footerText, contactUs, privacyPolicy, returnAddress, unsubscribe, disclaimer }: FooterProps) {
   return (
     <footer className="mt-20 pt-12 pb-8 border-t-2 border-[#E6EDF4]" style={{ background: 'linear-gradient(to bottom, #FFFFFF, #F7F9FB)' }}>
       <div className="max-w-6xl mx-auto text-center px-4">
@@ -26,6 +27,11 @@ function Footer({ footerText, contactUs, privacyPolicy, returnAddress, unsubscri
         <div className="space-y-2 text-sm text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>
           <p>{returnAddress}</p>
           <p>{unsubscribe}</p>
+          {disclaimer && (
+            <p className="mt-6 pt-6 border-t border-[#E6EDF4] text-xs italic">
+              {disclaimer}
+            </p>
+          )}
         </div>
       </div>
     </footer>
