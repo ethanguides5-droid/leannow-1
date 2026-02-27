@@ -48,10 +48,8 @@ function Upsell1() {
               <div className="mb-8">
                 <div className="flex items-baseline gap-4 mb-4">
                   <span className="text-5xl md:text-6xl font-bold text-[#F6A800]" style={{ fontFamily: 'Montserrat, sans-serif' }}>$49.90</span>
-                  <span className="text-2xl text-[#7C8CA1] line-through">$147</span>
                 </div>
                 <p className="text-[#7C8CA1] text-lg" style={{ fontFamily: 'Inter, sans-serif' }}>Complete Bundle - One-Time Payment</p>
-                <p className="text-[#4A4A4A] text-xl font-bold mt-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>Save Over $97 - 66% OFF!</p>
               </div>
 
               <div className="space-y-4 mb-8">
