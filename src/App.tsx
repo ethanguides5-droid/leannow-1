@@ -74,7 +74,7 @@ function App() {
 
               <div className="text-center space-y-1">
                 <p className="font-semibold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600 }}>{t.biggestDiscount}</p>
-                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>{t.liverSupport} / 6 {t.months}</p>
+                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>6 {t.months} {t.liverSupport}</p>
                 <p className="text-sm text-[#7C8CA1] mt-3" style={{ fontFamily: 'Inter, sans-serif' }}>
                   <span className="font-bold text-[#4A4A4A]">$294</span>
                 </p>
@@ -115,7 +115,7 @@ function App() {
 
               <div className="text-center space-y-1">
                 <p className="font-semibold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600 }}>Best Opportunity</p>
-                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>{t.liverSupport} / 3 {t.months}</p>
+                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>3 {t.months} {t.liverSupport}</p>
                 <p className="text-sm text-[#7C8CA1] mt-3" style={{ fontFamily: 'Inter, sans-serif' }}>
                   <span className="font-bold text-[#4A4A4A]">$207</span>
                 </p>
@@ -156,7 +156,7 @@ function App() {
 
               <div className="text-center space-y-1">
                 <p className="font-semibold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600 }}>{t.starterPackText}</p>
-                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>{t.liverSupport} / 1 {t.month}</p>
+                <p className="text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400 }}>1 {t.month} {t.liverSupport}</p>
                 <p className="text-sm text-[#7C8CA1] mt-3" style={{ fontFamily: 'Inter, sans-serif' }}>
                   <span className="font-bold text-[#4A4A4A]">$79</span>
                 </p>
