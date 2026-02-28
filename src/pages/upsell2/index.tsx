@@ -103,7 +103,7 @@ function Upsell2() {
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>
             <span className="text-[#F6A800]">SMART CUSTOMERS</span> CHOOSE THIS BUNDLE
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
               <div className="text-4xl font-bold text-[#F6A800] mb-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>$240</div>
               <p className="text-white text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
@@ -114,12 +114,6 @@ function Upsell2() {
               <div className="text-4xl font-bold text-[#F6A800] mb-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>6X</div>
               <p className="text-white text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
                 More effective - consistent 6-month supply for optimal results
-              </p>
-            </div>
-            <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
-              <div className="text-4xl font-bold text-[#F6A800] mb-2" style={{ fontFamily: 'Montserrat, sans-serif' }}>FREE</div>
-              <p className="text-white text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Priority shipping included - normally $29.99 for international delivery
               </p>
             </div>
           </div>
