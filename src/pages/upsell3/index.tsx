@@ -96,7 +96,7 @@ function Upsell3() {
                 style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.1em', boxShadow: '0 8px 24px rgba(74,74,74,0.3)' }}
               >
                 <Lock className="w-6 h-6" />
-                YES! ADD BACKUP BOTTLE
+                Add to Order
               </button>
 
               <button
