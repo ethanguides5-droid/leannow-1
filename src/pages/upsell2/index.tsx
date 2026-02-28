@@ -68,12 +68,6 @@ function Upsell2() {
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-[#4A4A4A] flex-shrink-0 mt-1" strokeWidth={2} />
                   <p className="text-[#4A4A4A] text-base" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
-                    <strong>FREE Priority Shipping</strong> - Fast delivery guaranteed
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-[#4A4A4A] flex-shrink-0 mt-1" strokeWidth={2} />
-                  <p className="text-[#4A4A4A] text-base" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
                     <strong>50% OFF Regular Price</strong> - Massive discount
                   </p>
                 </div>
@@ -81,12 +75,6 @@ function Upsell2() {
                   <CheckCircle className="w-6 h-6 text-[#4A4A4A] flex-shrink-0 mt-1" strokeWidth={2} />
                   <p className="text-[#4A4A4A] text-base" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
                     <strong>60-Day Money Back</strong> - Full refund guarantee
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-[#4A4A4A] flex-shrink-0 mt-1" strokeWidth={2} />
-                  <p className="text-[#4A4A4A] text-base" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
-                    <strong>VIP Priority Support</strong> - Exclusive customer care
                   </p>
                 </div>
               </div>
