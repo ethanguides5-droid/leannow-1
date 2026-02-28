@@ -1,4 +1,4 @@
-import { CheckCircle, Package, Mail, Heart } from 'lucide-react';
+import { CheckCircle, Package, Mail } from 'lucide-react';
 import Footer from '../components/Footer';
 import DevMenu from '../components/DevMenu';
 import { translations } from '../translations';
@@ -27,19 +27,9 @@ function ThankYou() {
               <span className="text-[#4A4A4A]">THANK YOU FOR</span><br />
               <span className="text-[#4A4A4A]">YOUR </span><span className="text-[#F6A800]">ORDER!</span>
             </h1>
-            <p className="text-xl text-[#7C8CA1] mb-8" style={{ fontFamily: 'Inter, sans-serif' }}>
+            <p className="text-xl text-[#7C8CA1]" style={{ fontFamily: 'Inter, sans-serif' }}>
               Your journey to <span className="font-bold text-[#4A4A4A]">optimal metabolism</span> and <span className="font-bold text-[#4A4A4A]">thermogenic fat burning</span> starts now!
             </p>
-            <a
-              href="https://parcelsapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#4A4A4A] hover:bg-[#5A5A5A] text-white font-bold px-10 py-4 rounded-full transition-all duration-300 inline-flex items-center gap-3 uppercase shadow-lg hover:scale-105"
-              style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.08em' }}
-            >
-              <Heart className="w-5 h-5" fill="currentColor" />
-              TRACK ORDER
-            </a>
           </div>
 
           <div className="bg-[#F5F6F7] px-8 py-6 border-t border-[#E6EDF4]">
