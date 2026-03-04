@@ -1,4 +1,4 @@
-import { Lock, ShoppingCart, CheckCircle, X, Gift } from 'lucide-react';
+import { Lock, ShoppingCart, CheckCircle, X, Gift, Shield } from 'lucide-react';
 import DevMenu from '../../components/DevMenu';
 import Footer from '../../components/Footer';
 import { translations } from '../../translations';
@@ -133,6 +133,63 @@ function Upsell3() {
               <p className="text-white text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Peace of mind knowing you'll never run out of supply
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-[#F6A800] mb-8">
+          <div className="bg-gradient-to-r from-[#F6A800] to-[#F7D96A] py-6 px-8">
+            <div className="flex items-center justify-center gap-4">
+              <Shield className="w-12 h-12 text-[#4A4A4A]" strokeWidth={2.5} />
+              <h3 className="text-3xl md:text-4xl font-extrabold text-[#4A4A4A] uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>
+                60-DAY MONEY-BACK GUARANTEE
+              </h3>
+            </div>
+          </div>
+          <div className="p-8 md:p-12">
+            <div className="text-center mb-8">
+              <img src="/60dias.png" alt="60-Day Guarantee" className="w-32 h-32 mx-auto mb-6" />
+              <p className="text-[#4A4A4A] text-xl md:text-2xl font-bold mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                Try LEANNOW Risk-Free for 60 Days
+              </p>
+              <p className="text-[#7C8CA1] text-lg max-w-3xl mx-auto" style={{ fontFamily: 'Inter, sans-serif', lineHeight: '1.8' }}>
+                We're so confident you'll love LEANNOW that we offer a complete 60-day money-back guarantee. If you're not completely satisfied with your results, simply return your bottles (even if empty) for a full refund - no questions asked.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#F6A800] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif' }}>1</span>
+                </div>
+                <h4 className="text-lg font-bold text-[#4A4A4A] mb-2 uppercase" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                  Try It
+                </h4>
+                <p className="text-[#7C8CA1] text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  Use LEANNOW for up to 60 days
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#F6A800] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif' }}>2</span>
+                </div>
+                <h4 className="text-lg font-bold text-[#4A4A4A] mb-2 uppercase" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                  Not Satisfied?
+                </h4>
+                <p className="text-[#7C8CA1] text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  Contact us for a return
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#F6A800] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-[#4A4A4A]" style={{ fontFamily: 'Montserrat, sans-serif' }}>3</span>
+                </div>
+                <h4 className="text-lg font-bold text-[#4A4A4A] mb-2 uppercase" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                  Full Refund
+                </h4>
+                <p className="text-[#7C8CA1] text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  Get 100% of your money back
+                </p>
+              </div>
             </div>
           </div>
         </div>
