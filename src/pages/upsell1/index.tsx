@@ -111,6 +111,25 @@ function Upsell1() {
           </div>
         </div>
 
+        <div className="bg-white rounded-xl p-8 md:p-12 mb-8 border-4 border-[#4A4A4A] shadow-2xl">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-shrink-0">
+              <img src="/60dias.png" alt="60-Day Money-Back Guarantee" className="w-48 h-48 object-contain" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="text-3xl md:text-4xl font-extrabold mb-4 text-[#4A4A4A] uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>
+                100% RISK-FREE <span className="text-[#F6A800]">60-DAY GUARANTEE</span>
+              </h3>
+              <p className="text-[#4A4A4A] text-lg md:text-xl mb-4 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
+                We're so confident you'll love these guides that we offer a full 60-day money-back guarantee. If you're not completely satisfied with your purchase, simply contact us within 60 days for a full refund - no questions asked.
+              </p>
+              <p className="text-[#7C8CA1] text-base" style={{ fontFamily: 'Inter, sans-serif' }}>
+                Your satisfaction is our priority. Try the complete bundle risk-free today.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="bg-[#4A4A4A] text-white rounded-xl p-8 mb-8 border-2 border-[#F6A800]">
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-6 uppercase" style={{ fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>
             WHY YOU NEED THE <span className="text-[#F6A800]">COMPLETE BUNDLE</span>
