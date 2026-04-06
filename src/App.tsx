@@ -30,7 +30,7 @@ function App() {
 
         <div className="flex justify-center mb-12">
           <a
-            href="https://www.checkout-ds24.com/product/647343"
+            href="https://www.checkout-ds24.com/product/674917"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold text-lg px-12 py-4 rounded-lg shadow-lg transition-all duration-300 flex items-center gap-2 hover:scale-105 uppercase"
@@ -62,7 +62,7 @@ function App() {
               </div>
 
               <a
-                href="https://www.checkout-ds24.com/product/647346"
+                href="https://www.checkout-ds24.com/product/674919"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold py-4 rounded-lg mb-4 flex items-center justify-center gap-2 transition-all duration-300 uppercase"
@@ -103,7 +103,7 @@ function App() {
               </div>
 
               <a
-                href="https://www.checkout-ds24.com/product/647345"
+                href="https://www.checkout-ds24.com/product/674918"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold py-4 rounded-lg mb-4 flex items-center justify-center gap-2 transition-all duration-300 uppercase"
@@ -144,7 +144,7 @@ function App() {
               </div>
 
               <a
-                href="https://www.checkout-ds24.com/product/647343"
+                href="https://www.checkout-ds24.com/product/674917"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#4A4A4A] hover:bg-[#FF8C00] text-white hover:text-[#4A4A4A] font-bold py-4 rounded-lg mb-4 flex items-center justify-center gap-2 transition-all duration-300 uppercase"
