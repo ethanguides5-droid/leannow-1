@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Lock, ShoppingCart, CheckCircle, X, Gift } from 'lucide-react';
 import DevMenu from '../../components/DevMenu';
 import Footer from '../../components/Footer';
@@ -5,6 +6,19 @@ import { translations } from '../../translations';
 
 function Upsell3() {
   const t = translations.en;
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://www.digistore24-scripts.com/service/digistore.js';
+    script.async = true;
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      const upsellScript = document.createElement('script');
+      upsellScript.innerHTML = 'digistoreUpsell()';
+      document.head.appendChild(upsellScript);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#FFFFFF] to-[#F5F6F7] py-12 px-4" style={{ fontFamily: 'Inter, sans-serif' }}>
